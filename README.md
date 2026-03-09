@@ -1,4 +1,4 @@
-# TheSkiF4er — founder polished
+# SkiF4er — founder polished
 
 Includes:
 - refined typographic scale
