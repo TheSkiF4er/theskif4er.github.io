@@ -1,8 +1,8 @@
-# SkiF4er — founder polished
+# SkiF4er — website copy refresh
 
 Includes:
-- refined typographic scale
-- improved mobile rhythm
-- page-specific Open Graph images
-- multilingual EN/RU
-- minimal animations
+- new brand positioning
+- EN/RU homepage copy
+- corrected flagship links
+- stronger community section
+- clearer metadata and CTA flow
