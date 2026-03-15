@@ -1,8 +1,7 @@
-# SkiF4er — website copy refresh
+# SkiF4er — русская правка сайта
 
-Includes:
-- new brand positioning
-- EN/RU homepage copy
-- corrected flagship links
-- stronger community section
-- clearer metadata and CTA flow
+В этом выпуске:
+- все открытые страницы переписаны по-русски;
+- добавлены страницы для Арога, Рога и недостающих ветвей набора;
+- выровнен единый копирайт на всех страницах;
+- обновлены сводные подписи для предпросмотра.

@@ -1,4 +1,4 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Варог — Готовые звенья для хода и строгости.">
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Арог — Девять ветвей одного набора.">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0b0b0c" />
@@ -8,7 +8,7 @@
   <rect width="1200" height="630" fill="url(#g)" />
   <circle cx="980" cy="150" r="150" fill="none" stroke="rgba(255,255,255,0.08)" />
   <circle cx="220" cy="500" r="90" fill="none" stroke="rgba(255,255,255,0.08)" />
-  <text x="94" y="220" fill="#f5f5f5" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="700">Варог</text>
-  <text x="96" y="290" fill="#9aa0a6" font-family="Arial, Helvetica, sans-serif" font-size="28">Готовые звенья для хода и строгости.</text>
+  <text x="94" y="220" fill="#f5f5f5" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="700">Арог</text>
+  <text x="96" y="290" fill="#9aa0a6" font-family="Arial, Helvetica, sans-serif" font-size="28">Девять ветвей одного набора.</text>
   <text x="96" y="490" fill="#6f757d" font-family="Arial, Helvetica, sans-serif" font-size="24">SkiF4er</text>
 </svg>
