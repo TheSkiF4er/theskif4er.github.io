@@ -11,8 +11,5 @@
     }, { threshold: 0.12 });
     els.forEach((el)=>io.observe(el));
   }
-  document.addEventListener('DOMContentLoaded', function(){
-    document.documentElement.setAttribute('data-current-lang', 'ru');
-    initReveal();
-  });
+  document.addEventListener('DOMContentLoaded', initReveal);
 })();
