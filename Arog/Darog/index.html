@@ -1,68 +1,82 @@
 <!DOCTYPE html>
-<html lang="ru" data-current-lang="ru">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Дарог — SkiF4er</title>
-  <meta name="description" content="Русское собрание готовых звеньев для служебной части." />
-  <link rel="icon" type="image/svg+xml" href="../../favicon.svg" />
-  <meta property="og:title" content="Дарог — SkiF4er" />
-  <meta property="og:description" content="Русское собрание готовых звеньев для служебной части." />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="../../og-arog.svg" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Дарог — SkiF4er" />
-  <meta name="twitter:description" content="Русское собрание готовых звеньев для служебной части." />
-  <meta name="twitter:image" content="../../og-arog.svg" />
-  <link rel="stylesheet" href="../../styles.css" />
-</head>
-<body>
+    <html lang="ru">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Darog — Arog / SkiF4er</title>
+      <meta name="description" content="Darog — ветвь Arog в экосистеме SkiF4er." />
+      <meta name="theme-color" content="#0B0F14" />
+      <link rel="icon" type="image/svg+xml" href="../../favicon.svg" />
+      <meta property="og:title" content="Darog — Arog / SkiF4er" />
+      <meta property="og:description" content="Darog — ветвь Arog в экосистеме SkiF4er." />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="../../og-arog.svg" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Darog — Arog / SkiF4er" />
+      <meta name="twitter:description" content="Darog — ветвь Arog в экосистеме SkiF4er." />
+      <meta name="twitter:image" content="../../og-arog.svg" />
+      <link rel="stylesheet" href="../../styles.css" />
+    </head>
+    <body>
+
 <header class="topbar">
   <div class="container topbar-inner">
-    <a class="brand" href="../../">SkiF4er</a>
+    <a class="brand" href="../../">
+      <span class="brand-mark">SF4</span>
+      <span>SkiF4er</span>
+    </a>
     <div class="nav-wrap">
       <nav class="nav">
-        <a href="../../#systems">Средства</a>
-        <a href="../../#positioning">Положение</a>
-        <a href="../../#ecosystem">Арог</a>
-        <a href="../../#community">Связь</a>
+        <a href="../../#positioning">Позиционирование</a>
+        <a href="../../#systems">Экосистема</a>
+        <a href="../../#stack">Стек</a>
+        <a href="../../#community">Каналы</a>
       </nav>
+      <a class="btn btn-ghost btn-small" href="https://github.com/TheSkiF4er">GitHub</a>
     </div>
   </div>
 </header>
 
+
 <main>
   <section class="page-hero fade-in">
-    <div class="container">
-      <div class="breadcrumb">Страница ветви набора</div>
-      <h1 style="margin:0 0 18px">Дарог</h1>
-      <p class="lead">Русское собрание готовых звеньев для служебной части.</p>
-      <div class="info-strip">
-        <div class="info"><strong>Разряд</strong><div>ветвь набора «Арог»</div></div>
-        <div class="info"><strong>Назначение</strong><div>готовые звенья</div></div>
-        <div class="info"><strong>Роль</strong><div>служебное собрание</div></div>
+    <div class="container page-grid">
+      <div class="card">
+        <div class="breadcrumb">Arog / серверные библиотеки</div>
+        <h1>Darog</h1>
+        <p class="lead">Библиотеки серверной части для повторяемых задач и ускорения внутренней разработки.</p>
+        <div class="info-strip">
+          <div class="info"><strong>Экосистема</strong><div>Arog</div></div>
+          <div class="info"><strong>Роль</strong><div>серверные библиотеки</div></div>
+          <div class="info"><strong>Класс</strong><div>Backend libraries</div></div>
+        </div>
+      </div>
+      <div class="callout">
+        <div class="kicker">Контур</div>
+        <p>Darog нужен для того, чтобы Arog оставался не набором разрозненных пакетов, а совместимой инженерной системой с понятной зоной ответственности.</p>
       </div>
     </div>
   </section>
 
   <section class="fade-in">
-    <div class="container">
+    <div class="container grid-2">
       <div class="card">
-        <div class="kicker">Суть</div>
-        <h2>Готовые части</h2>
-        <p>Дарог собирает полезные готовые звенья для внутреннего дела и служебных нужд.</p>
-        <ul class="list"><li>повторное дело</li><li>служебная польза</li><li>быстрое начало</li></ul>
+        <div class="kicker">Фокус</div>
+        <h2>Роль внутри Arog.</h2>
+        <ul class="list">
+          <li>отвечает за свой слой без пересечения ролей</li>
+          <li>сохраняет совместимость с остальными ветвями</li>
+          <li>помогает строить стек из независимых, но согласованных частей</li>
+        </ul>
       </div>
-    </div>
-  </section>
-
-  <section class="fade-in">
-    <div class="container">
       <div class="card">
-        <div class="kicker">Ход</div>
-        <h2>Поддержка роста</h2>
-        <p>Собрание помогает развивать внутреннюю часть без лишнего повторения одной и той же работы.</p>
-        <ul class="list"><li>бережение сил</li><li>ясный ход</li><li>готовность к росту</li></ul>
+        <div class="kicker">Принцип</div>
+        <h2>Почему это важно.</h2>
+        <ul class="list">
+          <li>ясные названия и границы</li>
+          <li>рост без потери целостности</li>
+          <li>повторяемый визуальный и инженерный контур</li>
+        </ul>
       </div>
     </div>
   </section>
@@ -72,19 +86,25 @@
       <div class="card cta">
         <div>
           <div class="kicker">Дальше</div>
-          <h2>Ветвь, которая держит свой строй и помогает общему делу.</h2>
+          <h2>Ветка Darog встроена в общий ритм Arog и бренда SkiF4er.</h2>
         </div>
         <div class="btns">
-          <a class="btn btn-primary" href="../">К Арогу</a>
+          <a class="btn btn-primary" href="../">К Arog</a>
           <a class="btn btn-secondary" href="../../">На главную</a>
         </div>
       </div>
     </div>
   </section>
 </main>
+
+
 <footer>
-  <div class="container">© 2026 SkiF4er. Все права защищены.</div>
+  <div class="container footer-copy">
+    <div>© 2026 SkiF4er · Независимые системы. Открытый код.</div>
+    <div>Минимум шума. Максимум контроля.</div>
+  </div>
 </footer>
-<script src="../../app.js"></script>
-</body>
-</html>
+
+    <script src="../../app.js"></script>
+    </body>
+    </html>
